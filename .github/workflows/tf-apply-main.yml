@@ -25,7 +25,8 @@ jobs:
       AWS_REGION: "us-east-1"
 
     defaults:
-      run:
+  run:
+    working-directory: ./modules/module-1
         shell: bash
 
     steps:
